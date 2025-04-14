@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script type="module" src="../js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../estilos\estilos.css">
+    <title>LA PAZ</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="cabecera">
+            <!--menu -->
+            <nav class="navbar navbar-light bg-light">
+                <form class="container-fluid justify-content-start">
+                    <button class="btn btn-outline-success me-2" type="button"
+                        onclick="location.href='../index.html'">Home</button>
+                    <a class="btn btn-sm btn-outline-secondary" href="../pags/Historia.html">Historia</a>
+                </form>
+            </nav>
+            <!--menu -->
+        </div>
+        <!----->
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalToggleLabel">Orígenes</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        La celebración de la Semana Santa comenzó como un medio para evangelizar a las poblaciones
+                        nativas, utilizando rituales y festividades que resonaban con sus creencias. Las primeras
+                        procesiones y ceremonias religiosas se llevaron a cabo en ciudades como Potosí y Sucre, donde la
+                        influencia española era más fuerte. <br>
+                        Evolución <br>
+                        Con el tiempo, la Semana Santa se fue consolidando como una de las festividades religiosas más
+                        importantes del país. Las tradiciones locales se incorporaron a las celebraciones, dando lugar a
+                        una mezcla única de costumbres indígenas y católicas. Las alfombras de flores, por ejemplo, se
+                        han convertido en una expresión artística que simboliza la devoción de las comunidades.
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
+                            data-bs-dismiss="modal">Actualidad</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalToggleLabel2">Actualidad</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        En la actualidad, la Semana Santa en Bolivia es un evento que atrae tanto a locales como a
+                        turistas. Las procesiones son más elaboradas y se han convertido en un espectáculo cultural, con
+                        una fuerte participación de la comunidad. Cada región del país celebra de manera distinta,
+                        reflejando la diversidad cultural de Bolivia.
+                        <img src="../img/modificar7.jpg" class="img-fluid" alt="Descripción de la imagen">
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"
+                            data-bs-dismiss="modal">Origen</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Historia</a>
+        <!----->
+        <div class="pie">
+            <!--pie de pagina-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-md">
+                    <a class="navbar-brand" href="#">Realizado por Cristian Quispe Quispe</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+</body>
+
+</html>
